@@ -9,6 +9,9 @@
     --light-grey: hsl(217, 12%, 63%);
     --dark-blue: hsl(213, 19%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
+
+    /* Secondary */
+    --secondary: hsl(213, 20%, 22%);
 }
 
 * {
@@ -19,8 +22,41 @@
     font-family: 'Overpass', sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--very-dark-blue);
+}
 
+.hidden {
+    display: none;
+}
 
+.card_container {
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
+    width: 350px;
+}
 
+.card {
+    padding: 2rem;
 
+}
 
+.star_icon {
+    background-color: var(--light-grey);
+    width: fit-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.tittle {
+    color: var(--white);
+}
