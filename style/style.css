@@ -17,7 +17,6 @@
 * {
     padding: 0%;
     margin: 0%;
-    font-size: 15px;
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
 }
@@ -59,4 +58,38 @@ body {
 
 .tittle {
     color: var(--white);
+    margin-bottom: 1rem;
 }
+
+.description {
+    color: var(--light-grey);
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.ratings span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    color: var(--light-grey);
+    font-weight: 700;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.ratings span:hover {
+    background-color: var(--light-grey);
+    color: var(--dark-blue);    
+}
+
