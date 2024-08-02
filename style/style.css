@@ -93,3 +93,20 @@ body {
     color: var(--dark-blue);    
 }
 
+.submit_btn {
+    background-color: var(--orange);
+    color: var(--very-dark-blue);
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    min-width: 100%;
+}
+
+.submit_btn:hover {
+    background-color: var(--white);
+    color: var(--very-dark-blue);
+}
