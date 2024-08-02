@@ -104,9 +104,30 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     min-width: 100%;
+    margin-bottom: 1rem;
 }
 
 .submit_btn:hover {
     background-color: var(--white);
     color: var(--very-dark-blue);
+}
+
+.thank_section {
+    text-align: center;
+}
+
+.chip {
+    background-color: var(--secondary);
+    color: var(--orange);
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.selected {
+    background-color: var(--orange);
+    color: var(--white);
 }
