@@ -127,7 +127,9 @@ body {
     font-weight: 700;
 }
 
-.selected {
+
+.card_container > .card > .rating_section > .ratings > .selected {
     background-color: var(--orange);
     color: var(--white);
+    
 }
